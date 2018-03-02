@@ -1,0 +1,166 @@
+/* This is a CSS comment. Notice that CSS comments are
+enclosed by different characters than HTML comments. */
+
+/* CSS allows you to give your page style (colors, shapes, fonts, etc.)
+You can apply CSS elements to entire HTML classes.*/
+body {
+  font-family: 'Roboto', serif;
+  color: #4d4d4e;
+  background-color: #333;
+}
+
+#wrapper {
+  width: 75%;
+  box-shadow: 10px 10px 5px #d3d3d3;
+  background-color: white;
+  margin: 20px auto 5px;
+  max-width: 950px;
+}
+
+iframe {
+  border: 0;
+  overflow: hidden;
+}
+
+header,
+footer {
+  padding: 1em;
+  color: black;
+  background-color: #e3e0cf;
+  clear: left;
+  text-align: center;
+}
+
+article {
+  margin-left: 190px;
+  border-left: 1px solid gray;
+  padding: 3em;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  margin-top: 1.5em;
+}
+
+#flex-container {
+  display: flex;
+}
+
+#flex-container > aside {
+  margin: 100px auto 5px;
+}
+
+aside {
+  font-weight: 300;
+}
+
+aside > p {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+#facts ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 190px;
+  position: fixed;
+  height: 100%;
+}
+
+nav ul li {
+  background-color: #f1f1f1;
+}
+
+nav ul a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+nav ul a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+nav ul a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#matching-table th,
+#matching-table td {
+  text-align: center;
+  padding: 8px;
+}
+
+#matching-table th:first-child,
+#matching-table td:first-child {
+  text-align: left;
+}
+
+#matching-table td:not(:first-child){
+  width: 20%;
+}
+
+/* Star Rating */
+.star-rating {
+  color:transparent;
+  background-image: url("images/star-red.svg");
+  background-repeat: space;
+  display: inline-block;
+}
+
+.stars-one {
+  background-size: 100% 100%;
+  width: 20%;
+}
+
+.stars-two {
+  background-size: 50% 100%;
+  width: 40%;
+}
+
+.stars-three {
+  background-size: 33.33333% 100%;
+  width: 60%;
+}
+
+.stars-four {
+  background-size: 25% 100%;
+  width: 80%;
+}
+
+.stars-five {
+  background-size: 20% 100%;
+  width: 100%;
+}
